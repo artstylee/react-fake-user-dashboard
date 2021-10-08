@@ -7,6 +7,7 @@ import ProfilePage from "./profile-page";
 export default function App() {
   const [login, setLogin] = useState(null);
 
+
   useLayoutEffect(() => {
     const getCookieValue = (name) => (
       document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || ''

@@ -6,12 +6,15 @@ import HeaderBar from "./headerbar";
 import List from "@mui/material/List";
 import ListItem from "@mui/material/ListItem";
 import { Link } from "react-router-dom";
+import Loader from "./loader"
 
 export default function ProfilePage({setLogin}) {
   const { get } = useFetch("http://localhost:9999/");
   const [profiledata, setProfiledata] = useState([]);
   const [cookieid, setCookieid] = useState("");
+  const [loader, setLoader] = useState(true)
 
+  
   function getCookie(name) {
     let matches = document.cookie.match(
       new RegExp(
@@ -55,6 +58,7 @@ export default function ProfilePage({setLogin}) {
   function handlePushToLogin() {
     deleteCookie("userid")
     setLogin(null)
+    setLoader(true)
   }
 
 
@@ -63,13 +67,14 @@ export default function ProfilePage({setLogin}) {
     get(`profile?id=${cookie}`).then((data) => {
       setProfiledata(data);
       setCookieid(cookie);
+      setLoader(false)
     });
   }, []);
 
 
   return (
     <div className="background-container">
-      <Container
+      {loader === true ? <Loader /> : <Container
         sx={{
           width: "fit-content",
           padding: "25px",
@@ -114,7 +119,7 @@ export default function ProfilePage({setLogin}) {
             );
           })}
         </Container>
-      </Container>
+      </Container>}
     </div>
   );
 }

@@ -13,9 +13,6 @@ import VisibilityOff from "@mui/icons-material/VisibilityOff";
 import useFetch from "./usefetch.js";
 import Alert from "@mui/material/Alert";
 
-
-
-
 export default function LoginPage({login, setLogin}) {
   const [values, setValues] = useState({
     login: "",
@@ -24,6 +21,8 @@ export default function LoginPage({login, setLogin}) {
   });
   const [logincounter, setLogincounter] = useState(0)
   const { get } = useFetch("http://localhost:9999/");
+
+
 
   const handleChangeInputs = (prop) => (event) => {
     setValues({ ...values, [prop]: event.target.value });
