@@ -1,0 +1,147 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": [
+    {
+      "id": "1",
+      "login": "testuser",
+      "password": "testpassword",
+      "nickname": "Q/A engineer",
+      "firstName": "alexander",
+      "lastName": "despla",
+      "sex": "male",
+      "phone": "+7-921-555-12-12",
+      "age": 32,
+      "city": "Saint-Petersburg",
+      "friends": [
+        {
+          "name": "Marcus",
+          "surname": "Lupin",
+          "age": 55,
+          "sex": "male"
+        },
+        {
+          "name": "Nadya",
+          "surname": "Romanova",
+          "age": 22,
+          "sex": "female"
+        },
+        {
+          "name": "Otto",
+          "surname": "Wurth",
+          "age": 66,
+          "sex": "male"
+        },
+        {
+          "name": "Annette",
+          "surname": "Hathaway",
+          "age": 33,
+          "sex": "female"
+        },
+        {
+          "name": "Jen",
+          "surname": "Lawrence",
+          "age": 25,
+          "sex": "female"
+        },
+        {
+          "name": "Brad",
+          "surname": "Pitt",
+          "age": 66,
+          "sex": "male"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "login": "Admin",
+      "password": "Admin",
+      "nickname": "Queen",
+      "firstName": "Queen",
+      "lastName": "Mary",
+      "sex": "female",
+      "phone": false,
+      "age": 65,
+      "city": "England",
+      "friends": [
+        {
+          "name": "Suzan",
+          "surname": "Boyle",
+          "age": 77,
+          "sex": "female"
+        },
+        {
+          "name": "Lucy",
+          "surname": "Liu",
+          "age": 33,
+          "sex": "female"
+        },
+        {
+          "name": "Keanu",
+          "surname": "Reeves",
+          "age": 77,
+          "sex": "female"
+        },
+        {
+          "name": "Johny",
+          "surname": "Depp",
+          "age": 77,
+          "sex": "female"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "login": "hacker",
+      "password": "hacker",
+      "nickname": "hackerz0r",
+      "firstName": false,
+      "lastName": false,
+      "sex": false,
+      "phone": false,
+      "age": false,
+      "city": false,
+      "friends": [
+        {
+          "name": "Joe",
+          "surname": "Biden ",
+          "age": 69,
+          "sex": "male"
+        },
+        {
+          "name": "Mr",
+          "surname": "Trump",
+          "age": 67,
+          "sex": "male"
+        },
+        {
+          "name": "Barack",
+          "surname": "Obama",
+          "age": 45,
+          "sex": "male"
+        },
+        {
+          "name": "Hillary",
+          "surname": "Clinton",
+          "age": 71,
+          "sex": "female"
+        }
+      ]
+    },
+    {
+      "id": "Mg6FsTJ"
+    }
+  ]
+}
