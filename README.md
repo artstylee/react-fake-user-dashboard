@@ -1,4 +1,4 @@
-This app is representing fake user authentication
+This app is representing fake user authentication   
 it works with react-create-app and json-server   
    
 To run this application you need to:   
