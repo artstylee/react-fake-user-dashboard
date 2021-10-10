@@ -18,8 +18,11 @@ json server provides 3 users with different data
 "login": "hacker",   
 "password": "hacker"   
    
-entering the wrong password you will see an alert otherwise you will be redirected to /profile page with user data   
-successful login will write cookies and you free to refresh the page   
-   
-nearly update:   
-    you will be able to change user data. remove/add friends and manage users   
+On entering wrong login/password you will get an alert   
+otherwise you will be redirected to /profile page with user data   
+successful login will write cookies thus you can refresh the page without losing data   
+you will get the friends list where you can add/delete/search your friends   
+
+
+all data is stored on json-server and iam using fetch custom hooks to get it   
+the app is simulating async operations with setTimeout delay   

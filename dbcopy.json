@@ -49,7 +49,7 @@
       ]
     },
     {
-      "id": 2,
+      "id":2,
       "friends": [
         {
           "name": "Suzan",
@@ -74,11 +74,6 @@
           "surname": "Depp",
           "age": 77,
           "sex": "female"
-        },
-        {
-          "name": "123",
-          "surname": "123",
-          "age": "123"
         }
       ]
     },
@@ -108,16 +103,6 @@
           "surname": "Clinton",
           "age": 71,
           "sex": "female"
-        },
-        {
-          "name": "123",
-          "surname": "123",
-          "age": "123"
-        },
-        {
-          "name": "asd",
-          "surname": "asd",
-          "age": "asd"
         }
       ]
     }

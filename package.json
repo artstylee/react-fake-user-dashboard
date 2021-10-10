@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "fakeapi": "json-server --watch db.json --routes routes.json  -p 9999",
+    "fakeapi": "json-server --watch db.json -p 9999",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
